@@ -23,11 +23,11 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 # Features:
-# - git integration
-# - username
-# - current directory up to 2
-# - time in RPROMPT
-# - happy/sad exit status indicator (0 = ':)', else ':|')
+# - Git integration.
+# - Username.
+# - Current directory up to 2.
+# - Time in RPROMPT.
+# - Happy/sad exit status indicator (0 = ':)', else ':|').
 #
 # Examples:
 #
