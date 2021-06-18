@@ -12,6 +12,19 @@ An unsuccessful prompt:
 username@~/projects >                     :| 9:00AM
 ```
 
+## Install
+
+Clone this repo.
+```bash
+git clone https://github.com/oliversandli/serious-zsh-theme.git
+```
+
+Copy `serious.zsh-theme` to `~/.oh-my-zsh/themes/`.
+```bash
+cd serious-zsh-theme
+cp serious.zsh-theme ~/.oh-my-zsh/themes/
+```
+
 ## Customizable Variables
 
 | Variable    | Use                                                 |
