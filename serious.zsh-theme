@@ -87,4 +87,4 @@ PROMPT+='$(git_prompt_info)'
 PROMPT+=' $(prompt_end) '
 
 RPROMPT='$(return_status)'
-RPROMPT+='%{$fg_bold[green]%}%t%{$reset_color%}'
+RPROMPT+=' %{$fg_bold[green]%}%t%{$reset_color%}'
