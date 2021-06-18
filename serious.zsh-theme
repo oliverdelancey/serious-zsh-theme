@@ -1,7 +1,7 @@
 # vim:ft=zsh ts=2 sw=2 sts=2
 #
 # A serious and customizable oh-my-zsh theme with fun and practical settings.
-# See Features on line 25.
+# See Features on line 37.
 #
 # Copyright (c) 2021 Oliver C. Sandli
 #
