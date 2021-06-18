@@ -13,7 +13,7 @@ An unsuccessful prompt:
 username@~/projects >                     :| 9:00AM
 ```
 
-You can change the theme's [variables](#customizable-varaibles) interactively to find out
+You can change the theme's [variables](#customizable-variables) interactively to find out
 what works best for you:
 ```text
 username@my-project/src > DIR_DEPTH=3                  :) 9:00AM
