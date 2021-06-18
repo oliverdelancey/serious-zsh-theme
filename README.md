@@ -13,6 +13,20 @@ An unsuccessful prompt:
 username@~/projects >                     :| 9:00AM
 ```
 
+You can change the theme's [variables](#customizable-varaibles) interactively to find out
+what works best for you:
+```text
+username@my-project/src > DIR_DEPTH=3                  :) 9:00AM
+username@projects/my-project/src >                     :) 9:00AM
+
+username@my-project/src > SAD_IND=":("                 :) 9:00AM
+username@my-project/src > return 1                     :) 9:00AM
+username@my-project/src >                              :( 9:00AM
+
+username@my-project/src > PROMPT_END=":::"             :) 9:00AM
+username@my-project/src :::                            :) 9:00AM
+```
+
 
 ## Install
 
