@@ -28,6 +28,8 @@
 # - Current directory up to 2.
 # - Time in RPROMPT.
 # - Happy/sad exit status indicator (0 = ':)', else ':|').
+#   These can be customized with $happy_ind and $sad_ind.
+#
 #
 # Examples:
 #
@@ -37,6 +39,9 @@
 # An unsuccessful prompt:
 # username@~/projects >                     :| 9:00AM
 #
+
+happy_ind=":)"
+sad_ind=":|"
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[blue]%}git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
@@ -48,5 +53,5 @@ PROMPT+='%{$fg_bold[blue]%}%2~%{$reset_color%}'
 PROMPT+='$(git_prompt_info)'
 PROMPT+=' > '
 
-RPROMPT='%(?.:).%{$fg_bold[red]%}:|)'
+RPROMPT='%(?.$happy_ind.%{$fg_bold[red]%}$sad_ind)'
 RPROMPT+='%{$fg_bold[green]%}%t%{$reset_color%}'
