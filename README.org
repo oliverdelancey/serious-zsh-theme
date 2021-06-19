@@ -1,0 +1,63 @@
+#+Title: Serious ZSH Theme
+#+Author: Oliver C. Sandli
+
+A serious, no-nonsense zsh theme with a smile. Designed to convey all
+necessary information without excessive fluff but still look nice. :)
+
+A successful prompt:
+
+#+BEGIN_EXAMPLE
+    username@~/projects >                     :) 9:00AM
+#+END_EXAMPLE
+
+An unsuccessful prompt:
+
+#+BEGIN_EXAMPLE
+    username@~/projects >                     :| 9:00AM
+#+END_EXAMPLE
+
+You can change the theme's [[#customizable-variables][variables]]
+interactively to find out what works best for you:
+
+#+BEGIN_EXAMPLE
+    username@my-project/src > DIR_DEPTH=3                  :) 9:00AM
+    username@projects/my-project/src >                     :) 9:00AM
+
+    username@my-project/src > SAD_IND=":("                 :) 9:00AM
+    username@my-project/src > return 1                     :) 9:00AM
+    username@my-project/src >                              :( 9:00AM
+
+    username@my-project/src > PROMPT_END=":::"             :) 9:00AM
+    username@my-project/src :::                            :) 9:00AM
+#+END_EXAMPLE
+
+** Install
+   :PROPERTIES:
+   :CUSTOM_ID: install
+   :END:
+
+Clone this repo.
+
+#+BEGIN_SRC sh
+    git clone https://github.com/oliversandli/serious-zsh-theme.git
+#+END_SRC
+
+Copy =serious.zsh-theme= to =~/.oh-my-zsh/themes/=.
+
+#+BEGIN_SRC sh
+    cd serious-zsh-theme
+    cp serious.zsh-theme ~/.oh-my-zsh/themes/
+#+END_SRC
+
+** Customizable Variables
+   :PROPERTIES:
+   :CUSTOM_ID: customizable-variables
+   :END:
+
+| Variable      | Use                                                   |
+|---------------+-------------------------------------------------------|
+| HAPPY_IND     | The indicator for programs that happily exit.         |
+| HAPPY_COLOR   | The color of =HAPPY_IND=.                             |
+| SAD_IND       | The indicator for recalcitrant programs.              |
+| DIR_DEPTH     | The amount of directories shown in the left prompt.   |
+| PROMPT_END    | The indicator for the left end of the prompt.         |
