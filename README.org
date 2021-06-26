@@ -49,6 +49,14 @@ Copy =serious.zsh-theme= to =~/.oh-my-zsh/themes/=.
     cp serious.zsh-theme ~/.oh-my-zsh/themes/
 #+END_SRC
 
+Set =ZSH_THEME= in your =.zshrc= to =serious=.
+
+Reload zsh.
+
+#+BEGIN_SRC sh
+    exec zsh
+#+END_SRC
+
 ** Customizable Variables
    :PROPERTIES:
    :CUSTOM_ID: customizable-variables
