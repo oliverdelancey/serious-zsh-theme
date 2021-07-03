@@ -73,7 +73,7 @@ prompt_end() {
 }
 
 return_status() {
-    echo "%(?.$HAPPY_COLOR$HAPPY_IND%{$reset_color%}.%{$fg_bold[red]%}$sad_ind)"
+    echo "%(?.$HAPPY_COLOR$HAPPY_IND%{$reset_color%}.%{$fg_bold[red]%}$SAD_IND)"
 }
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[blue]%}git:(%{$fg[red]%}"
